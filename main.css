@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+    GLOBAL
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    padding: 40px 0;
+}
+section h2 {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+section p {
+    margin-bottom: 48px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.light-bg {
+    background-color: #C0EEF2;
+}
+.medium-bg {
+    background-color: #537FE7;
+    color: #fff;
+}
+.dark-bg {
+    background-color: #181823;
+    color: #fff;
+}
+.tel-link {
+    color: #fff;
+}
+.news-letter-wrapper input {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 16px;
+}
+.news-letter-wrapper input::placeholder {
+    font-style: italic;
+}
+.news-letter-wrapper input:focus {
+    box-shadow: none;
+}
+.news-letter-wrapper button {
+    width: 40%;
+    font-size: 14px;
+}
+/* 
+    RESTYLE BOOTSTRAP
+*/
+.btn {
+    border-radius: 3px;
+    border: 0;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #537FE7;
+    
+}
+.btn-secondary {
+    background-color: #fff;
+    color: #537FE7;
+}
+.btn-secondary:hover {
+    background-color: #181823;
+    color: #fff;
+}
+.btn-warning {
+    background-color: #181823;
+    color: #fff;
+}
+.btn-warning:hover {
+    background-color: #537FE7;
+    color: #fff;
+}
+
+/* 
+    HEADER
+*/
+header {
+    background-color: #C0EEF2;
+}
+header .navbar {
+    padding: 0;
+}
+header .nav-link {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+    color: #181823;
+}
+header .nav-link:hover {
+    color: #fff;
+}
+header .nav-link.active {
+    color: #537FE7 !important;
+}
+header .navbar-toggler,
+header .navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+header .navbar-toggler-icon {
+}
+
+@media (max-width: 992px) {
+    header .nav-link {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+/* 
+    HERO
+*/
+.hero {
+    
+}
+
+/* 
+    HOSTING
+*/
+.hosting {
+    
+}
+.hosting-card {
+    border: none;
+    border-radius: 3px;
+    padding: 16px;
+    background-color: #fff;
+    color: #000000;
+}
+.hosting-card h3 {
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.hosting-card ul {
+    text-align: center;
+    margin-bottom: 32px;
+}
+.hosting-card ul li {
+    line-height: 19.5px;
+    margin-bottom: 8px;
+}
+.hosting-card .price {
+    font-style: italic;
+    margin-top: 8px;
+}
+.hosting-card-blue {
+    background-color: #537FE7;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .hosting-card {
+        margin-bottom: 32px;
+    }
+}
+
+/* 
+    DOMAINS
+*/
+.domains {
+    
+}
+.domain-card {
+    border-radius: 3px;
+    color: #000000;
+    background-color: #fff;
+    padding: 16px;
+}
+.domain-card h3 {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.domain-card .price {
+    margin-bottom: 16px;
+    font-style: italic;
+}
+@media (max-width: 768px) {
+    .domain-card {
+        margin-bottom: 24px;
+    }
+}
+/* 
+    CONTACT
+*/
+.contact {
+
+}
+
+/* 
+    FOOTER
+*/
+footer {
+    padding: 40px 0;
+}
+footer ul li {
+    margin-bottom: 8px;
+}
+footer .nav li a {
+    font-weight: bold;
+    color: #fff;
+}
+footer .nav li a:hover {
+    color: #C0EEF2;
+}
+footer .since {
+    font-style: italic;
+}
