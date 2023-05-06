@@ -106,9 +106,6 @@ header .navbar-toggler:focus {
     border: none;
     box-shadow: none;
 }
-header .navbar-toggler-icon {
-}
-
 @media (max-width: 992px) {
     header .nav-link {
         text-align: center;
@@ -116,18 +113,8 @@ header .navbar-toggler-icon {
     }
 }
 /* 
-    HERO
-*/
-.hero {
-    
-}
-
-/* 
     HOSTING
 */
-.hosting {
-    
-}
 .hosting-card {
     border: none;
     border-radius: 3px;
@@ -165,9 +152,6 @@ header .navbar-toggler-icon {
 /* 
     DOMAINS
 */
-.domains {
-    
-}
 .domain-card {
     border-radius: 3px;
     color: #000000;
@@ -187,13 +171,20 @@ header .navbar-toggler-icon {
         margin-bottom: 24px;
     }
 }
-/* 
-    CONTACT
-*/
-.contact {
 
+.domain-card.allowed-domain {
+    background-color: green;
+    color: #fff;
+}
+.domain-card.occupied-domain {
+    background-color: red;
+    color: #fff;
 }
 
+.domains .news-letter-wrapper button:hover {
+    background-color: #C0EEF2;
+    color: #181823;
+}
 /* 
     FOOTER
 */
